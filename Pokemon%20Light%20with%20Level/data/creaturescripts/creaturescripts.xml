@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+
+	<event type="login" name="PlayerLogin" registerTo="player" event="script" value="login.lua"/>
+
+	<event type="death" name="SummonDeath" registerTo="monster" event="script" value="goback.lua"/>
+
+	<event type="death" name="MonsterDeath" registerTo="all" event="script" value="pokeexp.lua"/>
+	
+	<event type="death" name="DeathChannel" registerTo="player" event="script" value="DeathChannel.lua"/>
+	
+	<event type="push" name="AwayFromKeyboard1" registerTo="all" event="script" value="AwayFromKeyboard.lua"/>
+	<event type="combat" name="AwayFromKeyboard2" registerTo="all" event="script" value="AwayFromKeyboard.lua"/>
+
+	<event type="kill" name="KillTask" registerTo="all" event="script" value="task.lua"/>
+	<event type="kill" name="LootSystem" registerTo="all" event="script" value="lootSystem.lua"/>
+
+	<event type="spawn" name="SpawnPoke" registerTo="monster" event="script" value="spawn.lua"/>
+	<event type="statschange" name="Damage2" registerTo="all" event="script" value="exp.lua"/>
+	<event type="combat" name="Damage1" registerTo="all" event="script" value="exp.lua"/>
+	<event type="kill" name="DropStone" registerTo="player" event="script" value="dropStone.lua"/>
+
+	<event type="look" name="LookSystem" registerTo="player" event="script" value="look.lua"/>
+	<event type="attack" name="targetCreature" registerTo="all" script="target.lua"/>
+
+	<event type="think" name="Flying" registerTo="player" event="script" value="flycool.lua"/>
+	<event type="logout" name="logout delay" event="script" registerTo="player" value="logout.lua"/>
+
+	<event type="joinchannel" name="GuildMotd" registerTo="player" event="script" value="guildmotd.lua"/>
+	<event type="reportbug" name="SaveReportBug" registerTo="player" script="reportbug.lua"/>
+	<event type="advance" name="AdvanceSave" registerTo="player" event="script" value="advancesave.lua"/>
+
+	<event type="think" name="Idle" registerTo="player" event="script" value="idle.lua"/>
+
+	<event type="joinchannel" name="OpenChannelDialog" registerTo="player" script="others.lua"/>
+	<event type="move" name="MoveItem" registerTo="player" script="others.lua"/>
+
+	<event type="traderequest" name="T2" registerTo="player" event="script" value="trade system.lua"/>
+
+	<event type="tradeaccept" name="T1" registerTo="player" event="script" value="trade system.lua"/>
+</creaturescripts>

@@ -1,0 +1,158 @@
+----- 4/4/2016 20:15:50 - Drazyn (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Home Premium Edition 32 Bit in BRA
+Processor: AMD C-50
+Video Card: ATI Radeon HD AMD 6250 
+Last Packet Types: 106 180 030 180 180 180 030 180 030 030
+Last Packet: 180 018 008 000 047 110 032 078 117 114 115 101 106 094 000 131
+Player Position: [95,130,7]
+Player Name: Drazyn (Forgotten)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 106) (MainWindow = 9157736), reason:
+Communication.cpp 1784: exception occurred (rx = 7) (ry = 7), reason:
+Communication.cpp 1592: exception occurred (Type = 97) (CreatureID = -2147482642), reason:
+Objects.cpp 604: exception occurred (Number = 532), reason:
+Container.h 226: index out of range (original i: 532, i: 531, min: 1, d: 367)
+Mon Apr 04 20:13:39 2016
+Debug Assertion 8.60 Container.h 226
+
+----- 19/4/2016 8:15:40 - Drazyn (192.168.0.104) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Home Premium Edition 32 Bit in BRA
+Processor: AMD C-50
+Video Card: ATI Radeon HD AMD 6250 
+Last Packet Types: 109 102 109 102 109 106 102 109 103 109
+Last Packet: 109 097 000 135 000 007 002 098 000 135 000 007 102 247 017 108
+Player Position: [98,135,7]
+Player Name: Drazyn (Forgotten)
+Player Action: 049 057 050 046 049 054 056 046 048 046 049 048 052 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 109) (MainWindow = 38517800), reason:
+Communication.cpp 2151: exception occurred, reason:
+Communication.cpp 2142: MoveCreature has been received for a coordinate where there is no bank as first object [bug0000484], reason:
+ sx: 8 sy: 6 sz: 0
+ Position: 2
+ zx: 9 zy: 6 zz: 0
+ dx: 1 dy: 0 dz: 0
+ abs_sx: 97 abs_sy: 135 abs_sz: 7
+ abs_zx: 98 abs_zy: 135 abs_zz: 7
+ Start Cylinder (1):  (4528,0) (4659,0) (99,268436457)
+ Start Cylinder (2):  (4528,0) (4659,0) (99,268436457)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (4644,0)
+ Destination Cylinder (2):  (4644,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+ ID: 268436457 Name: Drazyn
+ RealX: 98 RealY: 135 RealZ: 7
+ DeltaX: 0 DeltaY: 0
+Tue Apr 19 08:15:08 2016
+Debug Assertion 8.60 Communication.cpp 2142
+
+----- 24/4/2016 12:19:22 - Drazynn (25.99.154.90) -----
+Comment: ]
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Home Premium Edition 32 Bit in BRA
+Processor: AMD C-50
+Video Card: ATI Radeon HD AMD 6250 
+Last Packet Types: 093 106 180 107 030 109 109 109 109 109
+Last Packet: 180 018 021 000 047 105 032 100 101 102 101 097 116 101 100 032
+Player Position: [93,127,7]
+Player Name: Drazyn (Forgotten)
+Player Action: 050 053 046 057 057 046 049 053 052 046 057 048 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 93) (MainWindow = 39173224), reason:
+Control.cpp 1325: unknown packet type during game (Type = 93)
+Sun Apr 24 12:16:30 2016
+Debug Assertion 8.60 Control.cpp 1325
+
+----- 24/4/2016 12:23:13 - Drazyn (25.99.154.90) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Home Premium Edition 32 Bit in BRA
+Processor: AMD C-50
+Video Card: ATI Radeon HD AMD 6250 
+Last Packet Types: 095 106 170 170 030 103 109 102 109 109
+Last Packet: 106 095 000 127 000 007 003 144 002 131 095 000 127 000 007 014
+Player Position: [94,128,7]
+Player Name: Drazyn (Forgotten)
+Player Action: 050 053 046 057 057 046 049 053 052 046 057 048 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 95) (MainWindow = 3719824), reason:
+Control.cpp 1325: unknown packet type during game (Type = 95)
+Sun Apr 24 12:21:41 2016
+Debug Assertion 8.60 Control.cpp 1325
+
+----- 26/4/2016 8:8:24 - Drazyn (25.99.154.90) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Home Premium Edition 32 Bit in BRA
+Processor: AMD C-50
+Video Card: ATI Radeon HD AMD 6250 
+Last Packet Types: 131 170 160 112 180 030 131 108 131 160
+Last Packet: 180 027 042 000 067 111 110 103 114 097 116 117 108 097 116 105
+Player Position: [94,130,7]
+Player Name: Drazyn (Forgotten)
+Player Action: 050 053 046 057 057 046 049 053 052 046 057 048 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1728: exception occurred (MessageType: 0 MaW: 240C290 MoW: 0), reason:
+Control.cpp 1723: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1559: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 549: exception occurred (Obj = 4597), reason:
+MapWindow.cpp 1146: exception occurred (posx = 224) (posy = 160), reason:
+MapWindow.cpp 1138: exception occurred (EffectNumber = 0) (Type = 174), reason:
+Objects.cpp 691: exception occurred (Number = 174), reason:
+Container.h 226: index out of range (original i: 174, i: 173, min: 1, d: 100)
+Mon Apr 25 23:12:43 2016
+Debug Assertion 8.60 Container.h 226
+
+----- 26/4/2016 11:14:14 - Drazyn (25.99.154.90) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Home Premium Edition 32 Bit in BRA
+Processor: AMD C-50
+Video Card: ATI Radeon HD AMD 6250 
+Last Packet Types: 131 180 109 103 109 103 109 102 109 030
+Last Packet: 109 092 000 127 000 007 002 092 000 128 000 007 180 027 027 000
+Player Position: [95,130,7]
+Player Name: Drazyn (Forgotten)
+Player Action: 050 053 046 057 057 046 049 053 052 046 057 048 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+MainFrm.cpp 508: exception occurred (nIDEvent = 1), reason:
+Control.cpp 1437: exception occurred, reason:
+Map.cpp 1008: exception occurred (i = 0), reason:
+Objects.cpp 757: exception occurred (Number = 167), reason:
+Container.h 226: index out of range (original i: 167, i: 166, min: 1, d: 100)
+Tue Apr 26 11:13:34 2016
+Debug Assertion 8.60 Container.h 226
+
+----- 28/4/2016 10:29:1 - Drazyn (25.99.154.90) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Home Premium Edition 32 Bit in BRA
+Processor: AMD C-50
+Video Card: ATI Radeon HD AMD 6250 
+Last Packet Types: 100 011 010 031 100 020 000 000 000 000
+Last Packet: 010 239 003 000 016 050 000 000 011 170 170 170 170 213 213 213
+Player Name: Drazyn (Forgotten)
+Player Action: 050 053 046 057 057 046 049 053 052 046 057 048 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 100) (MainWindow = 36487824), reason:
+Communication.cpp 1681: exception occurred (PlayerX = 95) (PlayerY = 127), reason:
+Communication.cpp 1659: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1638: exception occurred (Type = 41215) (OldType = 656), reason:
+Objects.cpp 280: exception occurred (Type = 41215) (Flag = 10), reason:
+Objects.cpp 277: assertion failed (Type = 41215) (ObjectProperties->high() = 12267), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Thu Apr 28 10:26:08 2016
+Debug Assertion 8.60 Objects.cpp 277
+
